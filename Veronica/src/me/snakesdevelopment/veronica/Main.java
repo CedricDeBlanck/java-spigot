@@ -30,12 +30,12 @@ public class Main extends JavaPlugin {
 		
 		this.getServer().getPluginManager().registerEvents(new mysqlSetterGetter(), this);
 		
-		getServer().getConsoleSender().sendMessage("§7[§4Oswald§7] §aPlugin successfully initialized!");
+		getServer().getConsoleSender().sendMessage("Â§7[Â§4VeronicaÂ§7] Â§aPlugin successfully initialized!");
 	}
 	
 	@Override
 	public void onDisable() {
-		getServer().getConsoleSender().sendMessage("§7[§4Oswald§7] §4Plugin successfully shutted down!");
+		getServer().getConsoleSender().sendMessage("Â§7[Â§4VeronicaÂ§7] Â§4Plugin successfully shutted down!");
 	}
 	
 	public void loadConfig() {
