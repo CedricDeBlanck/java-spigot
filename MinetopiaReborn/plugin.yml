@@ -1,0 +1,65 @@
+name: MinetopiaReborn
+main: be.overcast.minetopia.Main
+version: 1.0
+author: Snakebite2205
+depends: [ActionBarAPI, VaultAPI, WorldGuard, MT-Core]
+commands:
+  aanhoudingsbevel:
+    usage: /<command> - politie.bevel
+  notitie:
+    usage: /<command> - politie.notitie
+  politie:
+    usage: /<command> - politie.use
+  boete:
+    usage: /<command> - politie.boete
+  pr:
+    usage: /<command> - Politie.Radio
+  ar:
+    usage: /<command> - Ambulance.Radio
+  br:
+    usage: /<command> - Brandweer.Radio
+  items:
+    usage: /<command> - MinetopiaReborn.items
+  setlevel:
+    usage: /<command> <speler> <level>
+  noodmelding:
+    usage: /<command>
+  stuurbericht:
+    usage: /<command>
+  badge:
+    usage: /<command>
+  rijbewijs:
+    usage: /<command>
+  freeze:
+    usage: /<command>
+  anwbr:
+    usage: /<command> - anwb.Radio
+  report:
+    usage: /<command> - nopermission
+  mijnrole:
+    usage: /<command>
+  prefix:
+    usage: /<command>
+  uuid:
+    usage: /<command>
+  getitem:
+    usage: /<command>
+  factuur:
+    usage: /<command> <speler> <bedrag> <reden> - minetopiareborn.factuur
+  facturen:
+    usage: /<command> - nopermission
+  geefwapen:
+    usage: /<command>
+  permissionsadd:
+    usage: /<command>
+  discord:
+    usage: /<command>
+  vote:
+    usage: /<command>
+  permissionsremove:
+    usage: /<command>
+  winkel:
+    usage: /<command>
+  shop:
+    usage: /<command>
+  
