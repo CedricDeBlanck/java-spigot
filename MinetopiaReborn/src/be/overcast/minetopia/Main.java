@@ -48,7 +48,7 @@ import net.milkbowl.vault.permission.Permission;
 public class Main extends JavaPlugin implements Listener, CommandExecutor {
 
 	// DISCORD BOT
-	public final String TOKEN = "Nzc2ODMwNTA5MzY3MDMzODY2.X66lyg.IYv8drEfH8NA1fYOrGQfIQ5SGVo";
+	public final String TOKEN = "";
 	public static JDA jda;
 	public static String prefix = "!";
 
