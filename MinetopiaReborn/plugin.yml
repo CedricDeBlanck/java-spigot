@@ -1,7 +1,7 @@
 name: MinetopiaReborn
 main: be.overcast.minetopia.Main
 version: 1.0
-author: Snakebite2205 & _Dempsey
+author: Snakebite2205
 depends: [ActionBarAPI, VaultAPI, WorldGuard, MT-Core]
 commands:
   aanhoudingsbevel:
