@@ -1,0 +1,8 @@
+name: PolitieBadge
+main: me.snakebite.politiebadge.Main
+version: 1.0
+author: Snakebite2205
+Description: Maak een badge met een command
+commands:
+   badge:
+     usage: /<command>

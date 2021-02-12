@@ -1,0 +1,192 @@
+# Plugin made by SnakesDevelopment
+
+# NOTE
+# 
+# THIS PLUGIN NEEDS WORLDEDIT, WORLDGUARD, ACTIONBARAPI, VAULT and ESSENTIALS PLUGIN or any other economy plugin
+#
+#
+# WORLDEDIT: https://www.spigotmc.org/resources/fast-async-worldedit.13932/
+# WORLDGUARD: https://dev.bukkit.org/projects/worldguard
+# ACTIONBARAPI: https://www.spigotmc.org/resources/actionbarapi-1-8-1-14-2.1315/
+# VAULT: https://www.spigotmc.org/resources/vault.34315/
+# ESSENTIALS: https://www.spigotmc.org/resources/essentialsx.9089/
+
+############################################################################
+# ╔══════════════════════════════════════════════════════════════════════╗ #
+# ║                                                                      ║ #
+# ║                              SnDrugs v1.0                            ║ #
+# ║                                                                      ║ #
+# ║                            SnakesDevelopment                         ║ #
+# ║                                                                      ║ #
+# ╚══════════════════════════════════════════════════════════════════════╝ #
+############################################################################
+
+############################################################################
+# ╔══════════════════════════════════════════════════════════════════════╗ #
+# ║                          Regions / Regio's                           ║ #
+# ╚══════════════════════════════════════════════════════════════════════╝ #
+############################################################################
+
+# Weed regions / Wiet regio's
+WeedGatherRegion: gatherWeed
+WeedProcessRegion: processWeed
+WeedSellRegion: sellWeed
+
+# Coke regions / Cocaïne regio's
+CokeGatherRegion: gatherCoke
+CokeProcessRegion: processCoke
+CokeSellRegion: sellCoke
+
+# Meth regions / Meth regio's
+MethGatherRegion: gatherMeth
+MethProcessRegion: processMeth
+MethSellRegion: sellMeth
+
+MoneyLaunderingRegion: moneylaundering
+
+############################################################################
+# ╔══════════════════════════════════════════════════════════════════════╗ #
+# ║                                 Items                                ║ #
+# ╚══════════════════════════════════════════════════════════════════════╝ #
+############################################################################
+
+# Weed Seed
+Weed_Seed_Item: "SEEDS"
+Weed_Seed_Data: 0
+
+# Weed Item
+Weed_Item: "POISONOUS_POTATO"
+Weed_Item_Data: 0
+
+# Weed Processed Item
+Weed_Processed_Item: "INK_SACK"
+Weed_Processed_Data: 2
+
+# Coke Seed
+Coke_Seed_Item: "MELON_SEEDS"
+Coke_Seed_Data: 0
+
+# Coke Item
+Coke_Item: "SUGAR"
+Coke_Item_Data: 0
+
+# Coke Processed Item
+Coke_Processed_Item: "INK_SACK"
+Coke_Processed_Data: 15
+
+# Meth Seed
+Meth_Seed_Item: "PUMPKIN_SEEDS"
+Meth_Seed_Data: 0
+
+# Meth Item
+Meth_Item: "IRON_NUGGET"
+Meth_Item_Data: 0
+
+# Meth Processed Item
+Meth_Processed_Item: "IRON_INGOT"
+Meth_Processed_Data: 0
+
+# Black Money Item
+Black_Money_Item: "SULPHUR"
+Black_Money_Data: 0
+
+Black_Money_Per_Item: 10
+
+
+############################################################################
+# ╔══════════════════════════════════════════════════════════════════════╗ #
+# ║                               ItemNames                              ║ #
+# ╚══════════════════════════════════════════════════════════════════════╝ #
+############################################################################
+
+# Weed Seeds Items
+WeedSeedName: "&a&lWeed Seed"
+WeedSeedLore: "&2&lWeed Seed Lore"
+
+# Weed Item
+WeedName: "&a&lWeed"
+WeedLore: "&2&lWeed Lore"
+
+# Weed Processed Item
+ProcessedWeedName: "&a&lProcessed Weed"
+ProcessedWeedLore: "&a&lProcessed Weed Lore"
+
+# Coke Seeds Items
+CokeSeedName: "&f&lCoke seed"
+CokeSeedLore: "&f&lCoke seed lore"
+
+# Coke Item
+CokeName: "&f&lCoke"
+CokeLore: "&f&lCoke lore"
+
+# Coke Processed Item
+ProcessedCokeName: "&f&lProcessed Coke"
+ProcessedCokeLore: "&f&lProcessed Coke Lore"
+
+# Meth Seeds Item
+MethSeedName: "&b&lMeth Seed"
+MethSeedLore: "&b&lMeth Seed Lore"
+
+# Meth Item
+MethName: "&b&lMeth"
+MethLore: "&b&lMeth Lore"
+
+# Meth Processed Item
+MethProcessedName: "&b&lProcessed Meth"
+MethProcessedLore: "&b&lProcessed Meth Lore"
+
+# Black Money
+BlackMoneyName: "&7&lBlack Money"
+BlackMoneyLore: "&7&lBlack Money Lore"
+
+############################################################################
+# ╔══════════════════════════════════════════════════════════════════════╗ #
+# ║                                Messages                              ║ #
+# ╚══════════════════════════════════════════════════════════════════════╝ #
+############################################################################
+
+# Black Money
+Wash_Laundry: "&7You washed &c%washed_money%&7$"
+No_Black_Money: "&7You dont have any &fBlack Money &7to launder"
+
+# Full Inventory
+Full_Inventory: "&cYour inventory is full!"
+
+# Weed
+No_Weed_Seeds: "&cYou need weed seeds to gather Weed!"
+Gathering_Weed: "§2You are gathering &aWeed&2!"
+No_Weed: "&2You don't have any &aWeed &2to process!"
+Processing_Weed: "&2You are processing &aWeed&2!"
+No_Processed_Weed: "&2You need &aProcessed Weed &2to sell!"
+Selling_Weed: "&2You are selling &aWeed&2!"
+
+# Coke
+No_Coke_Seeds: "§cYou need Coke seeds to gather Coke!"
+Gathering_Coke: "&fYou are gathering &7Coke&f!"
+No_Coke: "&fYou don't have any &7Coke &fto process!"
+Processing_Coke: "&fYou are processing &7Coke&f!"
+No_Processed_Coke: "&fYou need &7Processed Coke &fto sell!"
+Selling_Coke: "&fYou are selling &7Coke&f!"
+
+# Meth
+No_Meth_Seeds: "&cYou need Meth seeds to gather Meth!"
+Gathering_Meth: "&7You are gathering &fMeth&7!"
+No_Meth: "&7You don't have any &fMeth &7to process!"
+Processing_Meth: "&7You are processing &fMeth&7!"
+No_Processed_Meth: "&7You need &fProcessed Meth &7to sell!"
+Selling_Meth: "&7You are selling &fMeth&7!"
+
+# Transaction Fail
+Transaction_Fail: "&cTransaction Failed!"
+
+############################################################################
+# ╔══════════════════════════════════════════════════════════════════════╗ #
+# ║                                 Timers                               ║ #
+# ╚══════════════════════════════════════════════════════════════════════╝ #
+############################################################################
+
+# Timers in SECONDS
+Gather_Timer: 1
+Process_Timer: 1
+Sell_Timer: 1
+Laundry_Timer: 1

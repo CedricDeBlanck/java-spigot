@@ -1,0 +1,8 @@
+name: PolitieArmor
+version: 1.0
+main: me.snakebite.politiearmor.Main
+author: Snakebite2205
+description: PolitieArmor Overcast
+commands:
+   politiearmor:
+          usage: /<command> aspirant,commisaris

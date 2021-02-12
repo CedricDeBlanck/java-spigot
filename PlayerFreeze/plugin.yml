@@ -1,0 +1,7 @@
+name: PlayerFreezer
+main: me.Snakebite.playerfreezer.Main
+version: 1.0
+description: Freeze spelers!
+commands:
+    freeze:
+       usage: /<command>

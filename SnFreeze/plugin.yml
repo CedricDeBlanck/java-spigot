@@ -1,0 +1,9 @@
+name: SnFreeze
+main: me.SnakesDevelopment.SnFreeze.Main.Main
+author: SnakesDevelopment
+version: 1.0
+api-version: 1.14
+description: Freeze plugin for your server
+commands:
+   freeze:
+      usage: /<command>

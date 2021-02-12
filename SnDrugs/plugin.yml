@@ -1,0 +1,9 @@
+name: SnDrugs
+main: me.SnakesDevelopment.SnDrugs.Main.Main
+author: SnakesDevelopment
+version: 1.0
+description: Drugs system for your server
+depends: [ActionBarAPI, Vault, WorldGuard, WorldEdit]
+commands:
+   drugsmenu:
+      usage: /<command>

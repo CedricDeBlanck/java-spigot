@@ -1,0 +1,8 @@
+name: RijbewijsSnake
+main: me.Snakebite.Rijbewijs.Main
+version: 1.0
+author: Snakebite2205
+Description: Maak een rijbewijs met een command
+commands:
+   rijbewijs:
+          usage: /<command>
