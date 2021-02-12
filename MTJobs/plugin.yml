@@ -1,0 +1,8 @@
+name: MTJobs
+main: me.snakebite.main.Main
+version: 1.0
+description: MTJobs
+commands:
+   duikersoutfit:
+      description: /<command>
+   

@@ -1,0 +1,8 @@
+name: JobSelectorMT
+main: me.snakebite.selector.main.Main
+version: 1.0
+description: Job selector en stad selector voor play.overcast.be
+commands:
+   jobs:
+      description: /<command>
+   
